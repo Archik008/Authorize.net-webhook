@@ -20,44 +20,24 @@ This project is a web server for receiving payments from the Authorize.net payme
 
 1. Clone the repository:
 
-   <pre>
-   <code>
-   git clone https://github.com/Archik008/Authorize.net-webhook.git
-   cd Authorize.net-webhook
-   </code>
-   </pre>
+   <pre><code>git clone https://github.com/Archik008/Authorize.net-webhook.git
+   cd Authorize.net-webhook</code></pre>
 
 2. Set up a virtual environment:
 
-   <pre>
-      <code>
-      python3 -m venv venv
-      </code>
-   </pre>
+   <pre><code>python3 -m venv venv</code></pre>
 
 3. Activate the virtual environment:
 
    - On Windows:
-     <pre>
-        <code>
-        venv\Scripts\activate.ps1
-        </code>
-     </pre>
+     <pre><code>venv\Scripts\activate.ps1</code></pre>
    
    - On macOS/Linux:
-     <pre>
-        <code>
-        source venv/bin/activate
-        </code>
-     </pre>
+     <pre><code>source venv/bin/activate</code></pre>
 
 4. Install the required dependencies:
 
-   <pre>
-      <code>
-      pip install -r requirements.txt
-      </code>
-   </pre>
+   <pre><code>pip install -r requirements.txt</code></pre>
 
 ### Configuration
 
@@ -67,10 +47,6 @@ This project is a web server for receiving payments from the Authorize.net payme
 ### Running the Server
 
 To run the server, use the following command:
-<pre>
-   <code>
-   python app.py
-   </code>
-</pre>
+<pre><code>python app.py</code></pre>
 
 The server will start listening for payment notifications and demonstrate the CARFAX report payment process.
